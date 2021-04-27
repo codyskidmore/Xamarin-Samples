@@ -1,17 +1,22 @@
 ﻿using System;
 using System.IO;
+using Notes.Data;
 using Xamarin.Forms;
 
 namespace Notes
 {
     public partial class App : Application
     {
-        public static string FolderPath { get; private set; }
+        static NoteDatabase _database;
+
+        // Create the _database connection as a singleton.
+        public static NoteDatabase Database =>
+            _database ?? (_database = new NoteDatabase(Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Notes.db3")));
 
         public App()
         {
             InitializeComponent();
-            FolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData));
             MainPage = new AppShell();
         }
 
