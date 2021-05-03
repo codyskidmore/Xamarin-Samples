@@ -34,7 +34,7 @@ namespace Notes.Views
             if (e.CurrentSelection != null)
             {
                 // Navigate to the NoteEntryPage, passing the ID as a query parameter.
-                Note note = (Note)e.CurrentSelection.FirstOrDefault() ?? new Note();
+                Note note = (Note)e.CurrentSelection.FirstOrDefault() ?? new Note(); // This clears a warning.
                 await Shell.Current.GoToAsync($"{nameof(NoteEntryPage)}?{nameof(NoteEntryPage.ItemId)}={note.Id}");
             }
         }
