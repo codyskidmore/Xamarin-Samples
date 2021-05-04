@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace StackLayoutTutorial.iOS
+namespace WebServiceTutorial.iOS
 {
     public class Application
     {

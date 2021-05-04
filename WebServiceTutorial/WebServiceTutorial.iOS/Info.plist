@@ -23,15 +23,15 @@
     <key>MinimumOSVersion</key>
     <string>8.0</string>
     <key>CFBundleDisplayName</key>
-    <string>StackLayoutTutorial</string>
+    <string>WebServiceTutorial</string>
     <key>CFBundleIdentifier</key>
-    <string>com.companyname.StackLayoutTutorial</string>
+    <string>com.companyname.WebServiceTutorial</string>
     <key>CFBundleVersion</key>
     <string>1.0</string>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen</string>
     <key>CFBundleName</key>
-    <string>StackLayoutTutorial</string>
+    <string>WebServiceTutorial</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
 </dict>

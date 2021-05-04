@@ -2,7 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace StackLayoutTutorial
+namespace WebServiceTutorial
 {
     public partial class App : Application
     {

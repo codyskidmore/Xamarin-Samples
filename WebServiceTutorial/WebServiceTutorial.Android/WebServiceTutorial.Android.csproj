@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C9A74D8-0E48-44A9-9686-A26478D500B9}</ProjectGuid>
+    <ProjectGuid>{C689390D-1D4A-4B3E-9F71-CD97398C9B9E}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>StackLayoutTutorial.Droid</RootNamespace>
-    <AssemblyName>StackLayoutTutorial.Android</AssemblyName>
+    <RootNamespace>WebServiceTutorial.Droid</RootNamespace>
+    <AssemblyName>WebServiceTutorial.Android</AssemblyName>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -87,9 +87,9 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StackLayoutTutorial\StackLayoutTutorial.csproj">
-      <Project>{4B8E3ABF-44D8-4D93-9812-E1D3B6E51A41}</Project>
-      <Name>StackLayoutTutorial</Name>
+    <ProjectReference Include="..\WebServiceTutorial\WebServiceTutorial.csproj">
+      <Project>{16A0B7A5-70AC-48A8-A1A8-604E2FFECD10}</Project>
+      <Name>WebServiceTutorial</Name>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

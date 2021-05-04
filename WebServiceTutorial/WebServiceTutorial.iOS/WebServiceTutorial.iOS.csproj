@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9D2DEDF0-25DD-497D-80C2-B062CF451AF3}</ProjectGuid>
+    <ProjectGuid>{498CAA74-ED2E-4C5A-8FCD-CBEB179A4704}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StackLayoutTutorial.iOS</RootNamespace>
+    <RootNamespace>WebServiceTutorial.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>StackLayoutTutorial.iOS</AssemblyName>
+    <AssemblyName>WebServiceTutorial.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>
@@ -128,9 +128,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\StackLayoutTutorial\StackLayoutTutorial.csproj">
-      <Project>{4B8E3ABF-44D8-4D93-9812-E1D3B6E51A41}</Project>
-      <Name>StackLayoutTutorial</Name>
+    <ProjectReference Include="..\WebServiceTutorial\WebServiceTutorial.csproj">
+      <Project>{16A0B7A5-70AC-48A8-A1A8-604E2FFECD10}</Project>
+      <Name>WebServiceTutorial</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>
