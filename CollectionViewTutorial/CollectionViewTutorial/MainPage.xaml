@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CollectionViewTutorial.MainPage">
+    <StackLayout Margin="20,35,20,20">
+        <CollectionView ItemsSource="{Binding Monkeys}"
+                        SelectionMode="Single"
+                        SelectionChanged="SelectableItemsView_OnSelectionChanged">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10"
+                          RowDefinitions="Auto, *"
+                          ColumnDefinitions="Auto, *">
+                        <Image Grid.RowSpan="2"
+                               Source="{Binding ImageUrl}"
+                               Aspect="AspectFill"
+                               HeightRequest="60"
+                               WidthRequest="60" />
+                        <Label Grid.Column="1"
+                               Text="{Binding Name}"
+                               FontAttributes="Bold" />
+                        <Label Grid.Row="1"
+                               Grid.Column="1"
+                               Text="{Binding Location}"
+                               VerticalOptions="End" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
